@@ -1,0 +1,20 @@
+.h1{
+    font-size: 20px;
+    color:blue;
+    line-height: 0.3;
+}
+.h2{
+    font-size: 15px;
+    color:black;
+    line-height: 0.3;
+}
+.h3{
+    font-size: 28px;
+    color:blue;
+    text-shadow: 1px 1px 1px #000;
+}
+.h4{
+    font-size: 15px;
+    color:blue;
+    line-height: 0.3;    
+}
