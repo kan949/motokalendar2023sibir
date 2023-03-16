@@ -1,12 +1,12 @@
 .h1{
     font-size: 20px;
     color:blue;
-    line-height: 0.1;
+    line-height: 0.5;
 }
 .h2{
     font-size: 15px;
     color:black;
-    line-height: 0.3;
+    line-height: 0.5;
 }
 .h3{
     font-size: 28px;
@@ -16,10 +16,11 @@
 .h4{
     font-size: 15px;
     color:blue;
-    line-height: 1;    
+    line-height: 0.5;    
 }
 .h5{
     font-size: 20px;
     color:red;
-    line-height: 1;   
+    line-height: 0.5;
+    text-shadow: 1px 1px 1px #000;   
 }
