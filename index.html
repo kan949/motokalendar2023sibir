@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>MotoCalendar2023</title>
+    <script language="javascript" type="text/javascript">
+      var d = new Date();
+      var day=new Array("воскресенье","понедельник","вторник",
+      "среда","четверг","пятница","суббота");
+      var month=new Array("января","февраля","марта","апреля","мая","июня",
+      "июля","августа","сентября","октября","ноября","декабря");
+      var TODAY = day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+      + " " + d.getFullYear() + " г.";
+      </script>
 </head>
+  
+
+
 <body bgcolor="Gainsboro">
    <center>
-   <h1 class="h3">Сибирский мотокалендарь 2023 </h1> 
+   <div class="main">
+      <div id="header">
+         <hr>   
+      <script language="javascript" type="text/javascript">
+      document.write("Сегодня ".fontsize (4).fontcolor ('black')+TODAY.fontsize (4).fontcolor ('black'));
+      </script> 
+      <h1 class="h3">Сибирский</h1>
+      <h1 class="h3">мотокалендарь 2023</h1>
+      <hr>
+      </div>
+
+      <div id="content">
       
-      <hr> 
       <h1 class="h1">03-05 января 2023</h1> 
       <h1 class="h5">Мотодубак-2023</h1>
       <h1 class="h1">г.Томск</h1>
@@ -491,7 +513,9 @@
       <h1 class="h2">Омская область</h1>
       <h1 class="h2">Курганская область</h1>
       <h1 class="h2">Тюменская область</h1>
-
-    </center>
+   </div>
+   </div>
+   </center>
+   
 </body>
 </html> 
