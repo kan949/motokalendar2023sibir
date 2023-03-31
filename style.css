@@ -1,9 +1,9 @@
 #header{
     position: fixed;
-    width: 500px;
+    width: 400px;
     height: 120px;
     background: Gainsboro; 
-    padding-top:0px;
+    padding-top:-10px;
     border-color: aquamarine;   
 }
 
@@ -11,7 +11,7 @@
     padding-top:120px;
 }
 
-.main { width: 500px }
+.main { width: 400px }
 
 .h1{
     font-size: 20px;
