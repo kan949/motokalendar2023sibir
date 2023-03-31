@@ -2,9 +2,13 @@
     position: fixed;
     width: 400px;
     height: 120px;
-    background: Gainsboro; 
+    background: rgb(105, 105, 105); 
     padding-top:-10px;
-    border-color: aquamarine;   
+    border:2px solid #ccc;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
 }
 
 #content{
@@ -44,3 +48,41 @@
     line-height: 0.5;
     -webkit-text-stroke: 1px black;
 }
+
+.topbutton {
+    width:50px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    top:50px;
+    right:765px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    }
+
+    .topbutton2 {
+        width:50px;
+        border:2px solid #ccc;
+        background:#f7f7f7;
+        text-align:center;
+        padding:10px;
+        position:fixed;
+        top:50px;
+        right:1060px;
+        
+        color:#333;
+        font-family:verdana;
+        font-size:9px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -khtml-border-radius: 5px;
+        }
