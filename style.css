@@ -18,6 +18,15 @@
     padding-top:80px;
 }
 
+.block_cl{
+    background-image: url("11.png");
+    	
+    background-position: right top;
+    background-size: 100px;
+   
+    background-repeat: no-repeat;
+}
+
 .image-width-px{
     width: 305px;
     border: 2px solid white;
