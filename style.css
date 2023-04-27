@@ -5,7 +5,7 @@
 #header{
     position: fixed;
     width: 320px;
-    height: 85px;
+    height: 100px;
     background: rgb(105, 105, 105); 
     border:2px solid #ccc;
     border-radius: 5px;
@@ -27,7 +27,7 @@
 }
 
 #content{
-    padding-top:85px;
+    padding-top:100px;
 }
 
 .block_cl{
