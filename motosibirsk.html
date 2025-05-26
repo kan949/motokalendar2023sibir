@@ -6,9 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script>
-document.write(new Date().getFullYear());
-</script>
   <title>Мото-Календарь 2025 СИБИРЬ</title>
 </head>
 
@@ -17,11 +14,15 @@ document.write(new Date().getFullYear());
     <div class="main1">
       <div id="content1">
 
-        <footer>
-<p>&copy; <script>document.write(new Date().getFullYear());</script> Ваша компания</p>
-</footer>
+<p>Текущее время: <time id="currentTime"></time></p>
 
-        <time datetime="2025-05-26">Текущая дата</time>  
+<script>
+  var timeElement = document.getElementById('currentTime');
+  setInterval(function () {
+    var currentTime = new Date();
+    timeElement.textContent = currentTime.toLocaleTimeString();
+  }, 1000);
+</script>  
 
    
         <div class="block">
