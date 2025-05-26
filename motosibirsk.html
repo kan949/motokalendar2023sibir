@@ -39,6 +39,16 @@ document.write(new Date().getFullYear());
         </a>  
       </div>
 
+        <div id="current_date"></div>  
+<script>  
+    date = new Date();  
+    year = date.getFullYear();  
+    month = date.getMonth() + 1;  
+    day = date.getDate();  
+    document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;  
+</script>  
+</div> 
+
       <hr>     
         <div class="block">
         <h1 class="h1">31 мая 2025</h1>
